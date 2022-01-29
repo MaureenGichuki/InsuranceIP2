@@ -2,12 +2,12 @@
     display: flex;
     justify-content:space-evenly;
 }
-li{
+.f1 li{
     list-style: none;
     padding-right:30px;
     padding-top: 10px;
 }
-ul{
+.f1 ul{
     display: flex;
 }
 .log1{
@@ -29,4 +29,77 @@ ul{
 }
 .sect1{
     background-image: url();
+}
+.f1boxes{
+    display: flex;
+    justify-content:center;
+    padding-top: 150px;
+}
+.pm1{
+    padding:20px;
+    box-shadow: #e5e4e2 0px 5px 5px 5px;
+}
+.pm2{
+    margin-left: 50px;
+    padding:20px;
+    box-shadow: #e5e4e2 0px 5px 5px 5px;
+}
+.pm3{
+    margin-left: 50px;
+    background-color: #0096ff;
+    padding:20px;
+}
+p1{
+    color: white;
+}
+.edit{
+    color: white;
+}
+.services{
+    display: flex;
+    padding-top: 100px;
+    justify-content:center;
+}
+.ser1{
+    text-align: center;
+}
+.ser2{
+    padding-left: 50px;
+    text-align: center;
+}
+.ser3{
+    padding-left: 50px;
+    text-align: center;
+}
+.ind{
+    justify-content: center;
+}
+.p2{
+    text-align: center;
+    justify-content: center;
+}
+.edittext3{
+    text-align: center;
+}
+.edittext4{
+    text-align: center;
+}
+.ind{
+    justify-content: center;
+    display: flex;
+}
+.prof{
+    justify-content:space-between;
+    box-shadow: #e5e4e2 0px 5px 5px 5px;
+    margin-left: 50px;
+}
+.disct{
+    display: flex;
+    justify-content: center;
+}
+.disct li{
+    list-style: none;
+}
+.free{
+
 }
