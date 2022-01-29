@@ -1,3 +1,32 @@
-nav{
+.navbar{
     display: flex;
+    justify-content:space-evenly;
+}
+li{
+    list-style: none;
+    padding-right:30px;
+    padding-top: 10px;
+}
+ul{
+    display: flex;
+}
+.log1{
+    padding-top: 25px;
+}
+.edittext1{
+    text-align: center;
+}
+.edittext2{
+    text-align: center;
+    clear: both;
+}
+.buttons{
+    display: flex;
+    padding-left: 540px;
+}
+.but2{
+    padding-left: 20px;
+}
+.sect1{
+    background-image: url();
 }
