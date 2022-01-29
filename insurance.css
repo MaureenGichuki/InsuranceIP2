@@ -13,3 +13,11 @@ ul{
 .log1{
     padding-top: 25px;
 }
+.edittext1{
+    text-align: center;
+    /* padding: 150px; */
+}
+.edittext2{
+    text-align: center;
+    clear: both;
+}
