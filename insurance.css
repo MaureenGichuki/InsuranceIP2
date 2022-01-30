@@ -1,5 +1,4 @@
 *{
-  /* background-color:#23A6F0; */
 }
 .navbar{
     display: flex;
@@ -7,6 +6,10 @@
 }
 .back1{
  background-image: url(herocover3.png);
+ background-size: 100%;
+}
+.logo{
+    color: white;
 }
 .f1 li{
     list-style: none;
@@ -15,6 +18,7 @@
 }
 .f1 ul{
     display: flex;
+    color: white;
 }
 .buttn1{
    height: 40px;
@@ -24,14 +28,18 @@
 }
 .log1{
     padding-top: 16px;
+    color:white;
 }
 .edittext1{
     text-align: center;
     font-size: 40px;
+    color: white;
+    padding-top: 100px;
 }
 .edittext2{
     text-align: center;
     clear: both;
+    color: white;
 }
 .buttons{
     display: flex;
@@ -39,6 +47,7 @@
 }
 .but2{
     padding-left: 20px;
+    padding-bottom: 250px;
 }
 .bt1{
     border-radius: 25px;
@@ -50,8 +59,14 @@
 .bt2{
     border-radius: 25px;
     height:40px;
-    border-style: hidden;
     background-color: transparent;
+    color: white;
+    border-style:solid;
+    border-width: thin;
+    border-radius: 20px;
+    margin-left: 20px;
+    width: 100px;
+    border-color: white;
 }
 .sect1{
     background-image: url();
@@ -59,7 +74,7 @@
 .f1boxes{
     display: flex;
     justify-content:center;
-    padding-top: 150px;
+    margin-top: -100px;
 }
 .pm1{
     padding:20px;
@@ -228,6 +243,10 @@ p1{
 .rights{
     float: right;
 }
+.block{
+    display: flex;
+    justify-content: center;
+}
 .ap1{
     display: flex;
     justify-content:space-around
@@ -246,6 +265,8 @@ p1{
     justify-content: center;
     padding: 30px;
     justify-items: center;
+    height:500px;
+    justify-content:space-evenly;
 }
 .btap{
     width:450px;
