@@ -1,6 +1,12 @@
+*{
+  /* background-color:#23A6F0; */
+}
 .navbar{
     display: flex;
     justify-content:space-evenly;
+}
+.back1{
+ background-image: url(herocover3.png);
 }
 .f1 li{
     list-style: none;
@@ -10,11 +16,18 @@
 .f1 ul{
     display: flex;
 }
+.buttn1{
+   height: 40px;
+   background-color: #23A6F0;
+   color: white;
+   border-style: hidden;
+}
 .log1{
-    padding-top: 25px;
+    padding-top: 16px;
 }
 .edittext1{
     text-align: center;
+    font-size: 40px;
 }
 .edittext2{
     text-align: center;
@@ -27,6 +40,19 @@
 .but2{
     padding-left: 20px;
 }
+.bt1{
+    border-radius: 25px;
+    height:40px;
+    border-style: hidden;
+    background-color: #23A6F0;
+    color: white;
+}
+.bt2{
+    border-radius: 25px;
+    height:40px;
+    border-style: hidden;
+    background-color: transparent;
+}
 .sect1{
     background-image: url();
 }
@@ -37,16 +63,20 @@
 }
 .pm1{
     padding:20px;
-    box-shadow: #e5e4e2 0px 5px 5px 5px;
+    /* box-shadow: #e5e4e2 0px 5px 5px 5px; */
+    max-height: 30%;
+    min-width: 50px;
+    background-color: white;
 }
 .pm2{
     margin-left: 50px;
     padding:20px;
-    box-shadow: #e5e4e2 0px 5px 5px 5px;
+    /* box-shadow: #e5e4e2 0px 5px 5px 5px; */
+    background-color: white;
 }
 .pm3{
     margin-left: 50px;
-    background-color: #0096ff;
+    background-color: #23A6F0;
     padding:20px;
 }
 p1{
@@ -62,14 +92,36 @@ p1{
 }
 .ser1{
     text-align: center;
+    background-color: white;
 }
 .ser2{
-    padding-left: 50px;
+    margin-left: 50px;
     text-align: center;
+    background-color: white;
 }
 .ser3{
-    padding-left: 50px;
+    margin-left: 50px;
     text-align: center;
+    background-color: white;
+}
+.sub{
+    display: flex;
+    justify-content: center;
+    /* background-color: linear-gradient:; */
+}
+.sub1{
+    width: 300px;
+    /* background-color: white; */
+    border-style: hidden;
+}
+.sub2{
+    width:90px;
+    border-style: hidden;
+    background-color: #23A6F0;
+    color: white;
+}
+.industry1{
+    padding: 90px;
 }
 .ind{
     justify-content: center;
@@ -84,14 +136,40 @@ p1{
 .edittext4{
     text-align: center;
 }
+.edittext6{
+    font-size: 30px;
+    font-weight: bold;
+}
+.edittext10{
+    font-weight: bold;
+    font-size: 20px;
+}
+.edittext11{
+    font-weight: bold;
+    font-size: 20px;
+}
 .ind{
     justify-content: center;
     display: flex;
+    padding:90px;
 }
 .prof{
     justify-content:space-between;
-    box-shadow: #e5e4e2 0px 5px 5px 5px;
+    box-shadow: #e5e4e2 0px 1px 1px 1px;
     margin-left: 50px;
+    padding:30px;
+    text-align: center;
+}
+.apps{
+    display: flex;
+    justify-content:space-evenly;
+    padding-bottom: 50px;
+}
+/* .checked{
+        color: orange;
+      } */
+.her{
+    text-align: center;
 }
 .disct{
     display: flex;
@@ -101,5 +179,89 @@ p1{
     list-style: none;
 }
 .free{
-
+    border-style: solid;
+    border-width: thin;
+    border-color: #ace5ee;
+    border-radius: 10px;
+    height: 450px;
+    margin-top: 30px;
+    padding: 15px;
+    
+}
+.stand{
+    background-color: #252B42;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 10px;
+    color: white;
+    padding: 15px;
+}
+.prem{
+    border-style: solid;
+    border-width: thin;
+    border-color: #ace5ee;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 15px;
+}
+.freebt{
+    border-radius: 5px;
+    border-style: hidden;
+    width:150px;
+    height: 30px;
+    background-color: #23A6F0;
+    color: white;
+}
+.sides{
+    background-color: #252B42;
+    color:white;
+    display: flex;
+    padding: 30px;
+    justify-content: space-evenly;
+}
+.branches{
+    height:100%;
+}
+.lefts{
+    width: 50%;
+}
+.rights{
+    float: right;
+}
+.ap1{
+    display: flex;
+    justify-content:space-around
+}
+.btapt{
+    background-color: #23A6F0;
+    border-radius: 5px;
+    height: 40px;
+    width:100px;
+    border-style: hidden;
+    color: white;
+    justify-content: left;
+}
+.appoint{
+    display: inline-block;
+    justify-content: center;
+    padding: 30px;
+    justify-items: center;
+}
+.btap{
+    width:450px;
+    height: 30px;
+}
+.info{
+    display:flex;
+    justify-content: center;
+}
+li{
+    list-style: none;
+}
+.n7{
+    font-weight: bold;
+}
+.comp{
+    justify-content: start;
+    padding: 0px;
 }
