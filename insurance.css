@@ -1,4 +1,8 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Poppins:wght@300;400&display=swap');
+*{   
+font-family:'Montserrat', sans-serif;
+    font-size:small;
+    font-weight:normal;
 }
 .navbar{
     display: flex;
@@ -233,6 +237,7 @@ p1{
     display: flex;
     padding: 30px;
     justify-content: space-evenly;
+    height: 500px;
 }
 .branches{
     height:100%;
@@ -246,6 +251,7 @@ p1{
 .block{
     display: flex;
     justify-content: center;
+    margin-top: -250px;
 }
 .ap1{
     display: flex;
@@ -267,9 +273,10 @@ p1{
     justify-items: center;
     height:500px;
     justify-content:space-evenly;
+    background-color: white;
 }
 .btap{
-    width:450px;
+    width:400px;
     height: 30px;
 }
 .info{
