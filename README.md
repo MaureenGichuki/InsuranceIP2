@@ -42,7 +42,9 @@ to the right to use, merge, copy, publish, distribute this material.
 ## Authors Information
 Email - [businesschapter@gmail.com]
 
-![ Slate Insurance ](https://drive.google.com/file/d/1GNVB2XGYox6EbELN-1CxNPvRgHq5RWEP/view?usp=sharing)
 ## Installation
 * The website is visible on a computer, phone, tablet or ipad
 * Requires access to the internet
+
+![Slate Insurance](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQunpDASvHxEfvp83MzmCJND2M8HPvyp98-Mg&usqp=CAU)
+# Slate Insurance
