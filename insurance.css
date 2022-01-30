@@ -141,18 +141,19 @@ p1{
 .sub{
     display: flex;
     justify-content: center;
-    /* background-color: linear-gradient:; */
+    background-color: linear-gradient(rgb(32, 32, 175) rgb(95, 37, 95));
 }
 .sub1{
     width: 300px;
-    /* background-color: white; */
     border-style: hidden;
+    height:50px;
 }
 .sub2{
     width:90px;
     border-style: hidden;
     background-color: #23A6F0;
     color: white;
+    height:50px;
 }
 .industry1{
     padding: 90px;
@@ -182,7 +183,7 @@ p1{
 }
 .edittext11{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
 }
 .ind{
     justify-content: center;
