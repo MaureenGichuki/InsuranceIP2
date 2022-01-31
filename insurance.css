@@ -203,9 +203,6 @@ p1{
     justify-content:space-evenly;
     padding-bottom: 50px;
 }
-/* .checked{
-        color: orange;
-      } */
 .her{
     text-align: center;
 }
@@ -332,18 +329,6 @@ p1{
     justify-content: space-around;
     background-color:white;
 }
-/* .book{
-    padding-bottom: 20px;
-}
-.mail{
-    padding-bottom: 20px;
-}
-.dep{
-    padding-bottom: 20px;
-}
-.tym{
-    padding-bottom: 20px;
-} */
 .btap{
     width:400px;
     height: 30px;
