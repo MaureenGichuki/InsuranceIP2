@@ -42,7 +42,7 @@ font-size: small;
     font-size: 40px;
     color: white;
     padding-top: 100px;
-    font-weight: bolder;
+    font-weight:bolder;
 }
 .edittext2{
     text-align: center;
@@ -226,6 +226,22 @@ p1{
     padding: 15px;
     background-color: white;
     
+}
+.free li{
+    padding: 15px;
+    font-weight: bold;
+}
+.free li{
+    padding: 15px;
+    font-weight: bold;
+}
+.stand li{
+        padding: 15px;
+        font-weight: bold;
+}
+.prem li{
+    padding: 15px;
+    font-weight: bold;
 }
 .stand{
     background-color: #252B42;
