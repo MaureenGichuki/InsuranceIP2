@@ -369,3 +369,9 @@ li{
 .me{
     font-size: 14px;
 }
+@media only screen and ( max-width: 480px) {
+    header{
+        flex-direction: column;
+        background-color: antiquewhite;
+    }
+}
