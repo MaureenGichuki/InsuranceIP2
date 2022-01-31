@@ -95,21 +95,22 @@ font-size: small;
 .pm1{
     padding:20px;
     box-shadow: #e5e4e2 0px 2px 2px 2px;
-    max-height: 20%;
-    /* max-width: 550px; */
     background-color: white;
     background-position:20px;
+    width:250px;
 }
 .pm2{
     margin-left: 50px;
     padding:20px;
     box-shadow: #e5e4e2 0px 2px 2px 2px;
     background-color: white;
+    width:250px;
 }
 .pm3{
     margin-left: 50px;
     background-color: #23A6F0;
     padding:20px;
+    width:250px;
 }
 p1{
     color: white;
@@ -138,8 +139,10 @@ p1{
 }
 .sub{
     display: flex;
-    justify-content: center;
-    background-color: linear-gradient(rgb(32, 32, 175) rgb(95, 37, 95));
+    justify-content:space-between;
+    background-image:linear-gradient(darkblue, purple);
+    padding:30px;
+    height:100%;
 }
 .sub1{
     width: 300px;
@@ -184,8 +187,14 @@ p1{
     font-size: 20px;
 }
 .edittext11{
-    font-weight: bold;
+    font-weight:bold;
     font-size: 15px;
+    color:white;
+}
+.edittext12{
+    font-weight: bold;
+    color: white;
+    font-size: medium;
 }
 .col{
     color: orange;
@@ -193,6 +202,20 @@ p1{
 .space1{
     background-color: #faf9f6;
     padding: 11%;
+}
+.circ{
+    border-radius: 50%;
+    background-color: #50c878;
+    color: white;
+    margin-right: 10px;
+    padding: 10px;
+}
+.circ1{
+    color: white;
+    border-radius: 50%;
+    background-color: gray;
+    margin-right: 10px;
+    padding: 10px;
 }
 .ind{
     justify-content: center;
@@ -277,6 +300,7 @@ p1{
     height: 30px;
     background-color: #23A6F0;
     color: white;
+    margin-left: 40px;
 }
 .sides{
     background-color: #252B42;
@@ -364,7 +388,9 @@ li{
     padding: 0px;
 }
 .author{
-    background-color:#faf9f6
+    background-color:#faf9f6;
+    display: flex;
+    justify-content:space-between;
 }
 .me{
     font-size: 14px;
