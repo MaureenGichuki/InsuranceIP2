@@ -84,9 +84,6 @@ font-size: small;
     font-weight: bold;
     font-size: 15px;
 }
-.sect1{
-    background-image: url();
-}
 .f1boxes{
     display: flex;
     justify-content:center;
@@ -179,6 +176,9 @@ p1{
     font-size: 30px;
     font-weight: bold;
 }
+.edittext7{
+    text-align: center;
+}
 .edittext9{
     text-align: center;
 }
@@ -195,6 +195,10 @@ p1{
     font-weight: bold;
     color: white;
     font-size: medium;
+}
+.edittext13{
+    font-size: small;
+    text-align: center;
 }
 .col{
     color: orange;
@@ -403,8 +407,38 @@ li{
     .navbar{
         display: flex;
         flex-direction: column;
-        /* justify-content:space-evenly; */
+        justify-content:space-evenly;
     }
+    .edittext1{
+        text-align: center;
+        font-size: 40px;
+        /* color: white; */
+        padding-top: 0px;
+        font-weight:bolder;
+    }
+    .edittext2{
+        text-align: center;
+        clear: both;
+        /* color: white; */
+        font-size: 15px;
+    }
+    .f1 li{
+        list-style: none;
+        padding-right:0px;
+        padding-top: 0px;
+        font-weight: bolder;
+    }
+    .f1 ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .back1{
+        background-image: url(herocover3.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+       }
     .block{
         display: flex;
         flex-direction: column;
@@ -419,22 +453,14 @@ li{
         /* background: red; */
         margin: 20px;
     }
-  /*  .pm1{
-        width:100%;
-        margin-left: 30px;
-    }
-    .pm2{
-        padding-right: 20px;
-    } */
-
-
     .f1boxes{
-        /* display: flex; */
+        display: flex;
+        flex-direction: column;
         justify-content:center;
-        /* margin-top: -190px; */
+        margin-top: 0px;
     }
     .pm1{
-        /* padding:20px; */
+        padding:0px;
         box-shadow: #e5e4e2 0px 2px 2px 2px;
         background-color: white;
         /* background-position:20px; */
@@ -443,7 +469,7 @@ li{
     }
     .pm2{
         margin-left: 0px;
-        /* padding:20px; */
+        padding:0px;
         box-shadow: #e5e4e2 0px 2px 2px 2px;
         background-color: white;
         width:100%;
@@ -453,18 +479,18 @@ li{
     .pm3{
         margin-left: 0px;
         background-color: #23A6F0;
-        /* padding:20px; */
+        padding:0px;
         width:100%;
     }
 
     .space1{
         background-color: #faf9f6;
-        /* padding: 11%; */
+        padding:0px;
     }
     .services{
         display: flex;
         flex-direction: column;
-        /* padding: 100px; */
+        padding: 0px;
         justify-content:center;
     }
     .ser2{
@@ -480,6 +506,7 @@ li{
         .ind{
             display: flex;
             flex-direction: column;
+            padding: 0px;
             width:100%;
             justify-content: center;
         }
@@ -489,6 +516,9 @@ li{
             text-align: center;
             background-color: white;
         }
+        .price{
+            padding:0px;
+        }
         .industry1{
             padding: 0px;
             background-color: #faf9f6;
@@ -497,31 +527,37 @@ li{
         .apps{  
         display: flex;
         flex-direction: column;
-        justify-content:space-between;
-        /* padding-bottom: 50px; */
-        /* padding: 30px; */
-        /* width:100%; */
+        width:90%;
+        padding:0px;
+        align-items: center;
         }
         .sub{
             display: flex;
             flex-direction: column;
             justify-content:space-between;
             background-image:linear-gradient(darkblue, purple);
-            /* padding:30px; */
+            padding:0px;
             /* height:100%; */
             width:100%;
         }
         .sub1{
             width: 100%;
             border-style: hidden;
-            height:50px;
+            /* height:50px; */
+            padding: 0px;
         }
         .sub2{
             width:100%;
             border-style: hidden;
             background-color: #23A6F0;
             color: white;
-            height:50px;
+            /* height:50px; */
+            padding: 0px;
+        }
+        .ap1{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
         }
         .disct{
             display: flex;
@@ -561,7 +597,7 @@ li{
     .freebt{
         border-radius: 5px;
         border-style: hidden;
-        width:100%;
+        width:50%;
         /* height: 30px; */
         background-color: #23A6F0;
         color: white;
@@ -590,14 +626,11 @@ li{
     .sides{
         background-color: #252B42;
         color:white;
-        /* display: flex;
-        flex-direction: column; */
-        /* padding: 30px; */
-        /* justify-content: space-evenly; */
-        /* height: 500px; */
+        display: flex;
+        flex-direction: column;
+        padding:0px;
     }
     .rights{
-        /* float: right; */
         width: 100%;
     }
     .lefts{
@@ -611,7 +644,7 @@ li{
     .appoint{
         display: inline-block;
         justify-content: center;
-        /* padding: 30px; */
+        padding: 0px;
         /* height:400px; */
         justify-content: space-around;
         background-color:white;
@@ -626,8 +659,8 @@ li{
     .block{
         display: flex;
         justify-content: center;
-        /* margin-top: -450px; */
-        /* padding-bottom: 100px; */
+        margin-top:0px;
+        padding-bottom:0px;
+        height: 100%;
     }
-
 }
